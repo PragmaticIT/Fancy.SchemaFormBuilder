@@ -55,7 +55,7 @@ namespace Fancy.SchemaFormBuilder.Services.FormModules
                 }
                 else
                 {
-                    throw new InvalidOperationException("An " + nameof(FormArrayAttribute) + " must always be on a property with a type derived from IEnumerable<>");
+                    throw new InvalidOperationException("An FormArrayAttribute must always be on a property with a type derived from IEnumerable<>");
                 }
             }
         }
